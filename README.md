@@ -7,6 +7,12 @@ Convert [DICOM](https://en.wikipedia.org/wiki/DICOM) files such as magnetic reso
 * ImageMagick
 * ffmpeg
 
+To install on macOS with homebrew:
+```
+git clone https://github.com/andreoss/dicom; cd dicom; brew install imagemagick; brew install ffmpeg
+```
+
+
 ## Usage
 
 You need to specify an input directory, which is walked recursively.
